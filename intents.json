@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello!", "Is anyone there?", "Good morning!", "Good afternoon!"],
+      "responses": ["Hello! Are you looking for flowers for a special occasion or a bouquet to brighten your day?", "Hello! Can I help you find a perfect bouquet or an indoor plant?", "Hello! Are you interested in learning more about how to care for your flowers and plants?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Goodbye"],
+      "responses": ["See you later! Don't forget that flowers make any place happier. Follow us on Instagram for more floral inspiration.", "Have a beautiful day surrounded by flowers! Don't forget to follow us on Instagram.", "Goodbye! We will always be here for your floral needs. Stay updated on Instagram!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "I appreciate it", "That's helpful", "Thanks for the help"],
+      "responses": ["Glad to be able to help someone find the perfect flower! Follow us on Instagram for more tips.", "Any questions about flowers, don't hesitate to ask! We also post tips on our Instagram.", "It was a pleasure. Flowers always brighten the day! Follow us on Instagram for a bit of daily joy.", "I'm here to help you with all your floral needs! Don't forget to follow us on Instagram to see our latest deals and new products."]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?", "Tell me more about you"],
+      "responses": ["I'm Floralia, your bot assistant specializing in everything related to flowers and plants. Follow us on Instagram to learn more.", "I'm Floralia, an intelligent assistant that knows a lot about flowers. Check our Instagram to see what we're doing."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "What should I call you?", "What's your name?"],
+      "responses": ["You can call me Floralia.", "I'm Floralia!", "My name is Floralia, at your service. Remember to follow us on Instagram to see the latest in flowers and plants."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Could you help me?", "Give me a hand please", "Can you help?", "What can you do for me?", "I need help", "Support me please"],
+      "responses": ["Do you need help choosing flowers or assembling a bouquet? We can also offer you care tips on our Instagram.", "Are you looking for a specific flower or need recommendations? You can also check our posts on Instagram for inspiration.", "Of course! Are you looking for something for a special occasion or just want to brighten up your space? Don't forget to check out our featured bouquets on Instagram."]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": ["I need to create a new account", "How can I open a new account?", "I want to create an account", "Can you create an account for me?", "How to open a new account?"],
+      "responses": ["Creating an account is easy, just go to our website and follow the instructions. It will allow you to track your orders and save your flower preferences. Also, don't forget to follow us on Instagram to see our latest deals.", "You can create a new account on our website. This will allow you to save your favorite bouquets and place orders more quickly. We also recommend following us on Instagram so you don't miss any updates."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I have a complaint", "I want to file a complaint", "I have a complaint about a service"],
+      "responses": ["We're very sorry to hear that. Please provide more details about your problem so we can assist you better. We strive to constantly improve, and your feedback is vital to that.", "We're very sorry that you have a complaint. Please give us more details and we will do our best to solve the problem. We appreciate your patience and understanding."]
+    }
+  ]
+}
